@@ -10,13 +10,15 @@ using System.Reflection;
 using System;
 
 // Do not change the class name
-class MainClass
+public class FindMissingNumber
 {
 
     // COMPLETE THIS FUNCTION
-    static void process(string[] arr, int size)
+    public static string process(string[] arr, int size)
     {
         Console.WriteLine(string.Join("\n", arr));
+
+        return "";
     }
 
     // you do not need to edit anything below this line.
